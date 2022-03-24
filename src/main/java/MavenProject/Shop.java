@@ -26,8 +26,6 @@ public class Shop {
     }
 
 
-
-
     public Product[] showByEndDate(int date) {
         int count = 0;
         for (Product p : products) {
